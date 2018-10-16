@@ -1,6 +1,6 @@
 # raspberry
-1. Add file name ssh in root of sdcard
-2. Add file named wpa_supplicant.conf in root of the sdcard with the below content
+1. Add file name **ssh** in root of sdcard
+2. Add file named **wpa_supplicant.conf** in root of the sdcard with the below content
 ```
 country=SG
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev update_config=1
