@@ -19,3 +19,13 @@ Update ssid and psk as per your credentials
 
 Add below line to /boot/config.txt and reboot
 `dtoverlay=w1-gpio`
+
+Install gpio cli:
+1. `git clone git://git.drogon.net/wiringPi`
+2. cd wiringPi
+3. ./build
+this will enable gpio command
+
+`gpio readall` lists the table
+
+
