@@ -12,3 +12,7 @@ network={
 }
 ```
 Update ssid and psk as per your credentials
+
+
+`sudo modprobe w1-gpio && sudo modprobe w1-therm`
+`ls -l /sys/bus/w1/devices`
