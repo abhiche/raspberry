@@ -16,3 +16,6 @@ Update ssid and psk as per your credentials
 
 `sudo modprobe w1-gpio && sudo modprobe w1-therm`
 `ls -l /sys/bus/w1/devices`
+
+Add below line to /boot/config.txt and reboot
+`dtoverlay=w1-gpio`
