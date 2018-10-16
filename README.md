@@ -3,7 +3,8 @@
 2. Add file named **wpa_supplicant.conf** in root of the sdcard with the below content
 ```
 country=SG
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev update_config=1
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
 network={
      ssid="MY_SSID"
      psk="MY_PASSWORD"
