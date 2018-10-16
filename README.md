@@ -1,4 +1,4 @@
-# raspberry
+# raspberry headless setup for wifi and ssh
 1. Add file name **ssh** in root of sdcard
 2. Add file named **wpa_supplicant.conf** in root of the sdcard with the below content
 ```
